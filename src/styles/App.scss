@@ -1,12 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Karla", sans-serif;
-  margin: 0;
-  padding: 0;
-}
+@use "base";
 
 .App {
   display: flex;
@@ -14,17 +6,17 @@ body {
   align-items: center;
   min-width: 100vw;
   min-height: 100vh;
-  background-color: white;
+  background-color: base.$light;
 }
 
-/* HEADER */
+/* === HEADER === */
 header {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   padding: 0 24px;
-  background-color: #041c32;
+  background-color: base.$dark;
 }
 
 .nav {
@@ -44,7 +36,7 @@ header {
   top: 70px;
   padding: 0;
   flex-direction: column;
-  background-color: #041c32;
+  background-color: base.$dark;
   width: 100%;
   transition: 0.3s;
 }
@@ -60,14 +52,14 @@ header {
 
 .menu__item-link {
   transition: 0.2s ease;
-  color: white;
+  color: base.$light;
   text-decoration: none;
 }
 
 .menu__item-link:hover {
-  color: #ecb365;
+  color: base.$secondary;
   padding-bottom: 5px;
-  border-bottom: #ecb365 solid 3px;
+  border-bottom: base.$secondary solid 3px;
 }
 
 .download-btn {
@@ -83,8 +75,8 @@ header {
   cursor: pointer;
   border: none;
   border-radius: 6px;
-  background-color: #ecb365;
-  color: black;
+  background-color: base.$secondary;
+  color: base.$dark;
 }
 
 .download-btn:focus {
@@ -92,14 +84,14 @@ header {
 }
 
 .download-btn:active {
-  box-shadow: inset 5px 5px 10px -3px #0a2b2b;
+  box-shadow: inset 5px 5px 10px -3px base.$secondary;
 }
 
 .download-btn:hover {
   background-color: transparent;
   transition: all 0.3s ease-in-out;
-  color: white;
-  border: #ecb365 solid 3px;
+  color: base.$light;
+  border: base.$secondary solid 3px;
 }
 
 /* NAV Hamburger */
@@ -110,7 +102,7 @@ header {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: base.$light;
 }
 
 .hamburger {
@@ -130,12 +122,12 @@ header {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-/* HERO */
+/* === HERO === */
 .hero {
   display: flex;
   justify-content: center;
   width: 100vw;
-  background-color: white;
+  background-color: base.$light;
 }
 
 .hero-inner-container {
@@ -158,7 +150,7 @@ header {
   font-size: 2rem;
 }
 
-/* ABOUT ME */
+/* === ABOUT ME === */
 .aboutme-section {
   display: flex;
   flex-direction: column;
@@ -202,13 +194,13 @@ header {
   align-items: center;
 }
 
-/* PROJECTS */
+/* === PROJECTS === */
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  background-color: white;
+  background-color: base.$light;
 }
 .projects-inner-container {
   border: red 1px solid;
@@ -221,7 +213,7 @@ header {
   padding: 0 2rem;
 }
 
-/* FOOTER */
+/* === FOOTER === */
 .footer {
   border: red 1px solid;
   display: flex;
