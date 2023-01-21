@@ -27,17 +27,17 @@ export default function Navbar() {
             </a>
           </li>
           <li className="menu__item">
-            <a href="#" className="menu__item-link" onClick={toggleHamburger}>
+            <a href="#projects" className="menu__item-link" onClick={toggleHamburger}>
               Projects
             </a>
           </li>
           <li className="menu__item">
-            <a href="#" className="menu__item-link" onClick={toggleHamburger}>
+            <a href="#about-me" className="menu__item-link" onClick={toggleHamburger}>
               About Me
             </a>
           </li>
           <li className="menu__item">
-            <a href="#" className="menu__item-link" onClick={toggleHamburger}>
+            <a href="#contact-me" className="menu__item-link" onClick={toggleHamburger}>
               Contact Me
             </a>
           </li>
