@@ -38,22 +38,31 @@ $large: 1200px;
   }
 
   .hero__content {
-
     .heading-primary {
       font-size: 3rem;
       margin-bottom: 4rem;
     }
-
     .text-primary {
       margin: 0 auto 8rem;
       width: 70%;
       margin-bottom: 4rem;
     }
-
     .hero__cta {
       padding: 1rem 0;
       width: 30%;
     }
+  }
+
+  /* === PROJECTS === */
+  .project-card {
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
+    margin-bottom: 11rem;
+    align-items: center;
+  }
+
+  .project-card__content {
+    align-items: flex-start;
   }
 }
 
