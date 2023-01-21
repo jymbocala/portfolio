@@ -1,16 +1,13 @@
 import React from "react";
+import "../projectsData";
 
-export default function ProjectCard() {
+export default function ProjectCard(props) {
   return (
     <div className="project-card">
       {/* <img /> */}
-      <h4>Project Title</h4>
-      <p>Project Description</p>
-      <ul>
-        <li>Highlight one</li>
-        <li>Highlight two</li>
-      </ul>
-      <p>Tech used:</p>
+      <h4>{props.title}</h4>
+      <p>{props.description}</p>
+      <button>Router Link</button>
     </div>
-  )
+  );
 }

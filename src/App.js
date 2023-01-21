@@ -6,8 +6,8 @@ import "./styles/header.scss";
 import "./styles/queries.scss";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
-// import ProjectCard from "./components/ProjectCard";
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,13 +17,7 @@ function App() {
 
       <main>
         <Hero />
-        <section className="projects" id="projects">
-          <div className="projects-inner-container">
-            <h2 className="projects-title">Projects</h2>
-            <h3>A selection of my work</h3>
-            {/* <ProjectCard /> */}
-          </div>
-        </section>
+        <Projects />
         <AboutMe />
       </main>
 

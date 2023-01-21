@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutMe() {
   return (
-    <section className="aboutme-section" id="about-me">
+    <section className="aboutme-section sec-pad" id="about-me">
       <div className="aboutme-inner-container">
         <div className="aboutme--intro">
           <h2 className="aboutme--title">About Me</h2>
