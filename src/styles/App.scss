@@ -24,7 +24,7 @@
 }
 
 .projects-container {
-  border: red 1px solid;
+  // border: red 1px solid;
   max-width: 1400px;
 }
 
@@ -44,10 +44,14 @@
   }
 }
 
-
+/* PROJECT CARD */
 .project-card {
   border: red 1px solid;
   padding: 0 2rem;
+}
+
+.project-card__img {
+  width: 100%;
 }
 
 

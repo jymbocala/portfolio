@@ -1,8 +1,8 @@
-export default [
+const projectData = [
   {
     id: 1,
     title: "Quick Lesson Planner",
-    img: "",
+    img: "images/card-images/quick-lesson-planner-preview.png",
     description:
       "Quick Lesson Planner is a web-based app that uses artificial intelligence to help teachers create lesson plans quickly and easily. With Quick Lesson Planner, teachers can save time and stress by letting the app handle the planning process.",
   },
@@ -27,3 +27,5 @@ export default [
       "Tenzies is a popular dice game that encourages fast reactions and is super easy to learn. Roll until all dice are the same. Click each die to freeze it at its current value between rolls.",
   },
 ];
+
+export default projectData;

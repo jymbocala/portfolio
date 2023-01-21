@@ -17,7 +17,12 @@ export default function Projects() {
         </div>
 
         <div className="projects__content">
-          <ProjectCard 
+          <ProjectCard
+            title={quickLessonPlanner.title}
+            img={quickLessonPlanner.img}
+            description={quickLessonPlanner.description}
+          />
+          <ProjectCard
             title={quickLessonPlanner.title}
             img={quickLessonPlanner.img}
             description={quickLessonPlanner.description}
