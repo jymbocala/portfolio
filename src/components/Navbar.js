@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header() {
+export default function Navbar() {
   function toggleHamburger() {
     const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".nav__menu");

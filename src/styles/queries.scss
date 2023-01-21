@@ -2,16 +2,17 @@
 $medium: 768px;
 $large: 1200px;
 
+
+/* === MEDIUM SCREENS === */
 @media screen and (min-width: $medium) {
   /* === NAV === */
   .nav__menu {
-    /* border: red solid 1px; */
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    left: auto;
-    top: auto;
+    left: 0;
+    top: 0;
     gap: 15px;
     width: auto;
   }
@@ -33,14 +34,29 @@ $large: 1200px;
 
   /* === HERO === */
   .hero {
-    min-height: 85vh;
+    min-height: 65vh;
   }
 
-  .hero--img {
-    width: 400px;
+  .hero__content {
+    
+    .heading-primary {
+      font-size: 3rem;
+    }
+
+    .text-primary {
+      margin: 0 auto 8rem;
+      width: 70%;
+    }
+
+    .hero__cta {
+      padding: 1rem 0;
+      width: 30%;
+    }
   }
 }
 
+
+/* === LARGE SCREENS === */
 @media screen and (min-width: $large) {
   .nav-menu {
     gap: 40px;

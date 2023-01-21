@@ -3,7 +3,7 @@ import React from "react";
 export default function ProjectCard() {
   return (
     <div className="project-card">
-      <img />
+      {/* <img /> */}
       <h4>Project Title</h4>
       <p>Project Description</p>
       <ul>
