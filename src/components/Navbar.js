@@ -11,7 +11,10 @@ export default function Header() {
   return (
     <header>
       <div className="nav">
-        <img src="images/jb-logo.png" alt="jb logo" width={60} />
+        <div className="nav__logo-group">
+          <img src="images/hero-profile3.png" width={60} alt="jym bocala profile" />
+          <p>{"<jymintech>"}</p>
+        </div>
 
         <ul className="nav__menu">
           <li className="menu__item">

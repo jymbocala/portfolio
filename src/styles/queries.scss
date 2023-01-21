@@ -3,7 +3,7 @@ $medium: 768px;
 $large: 1200px;
 
 @media screen and (min-width: $medium) {
-  /* NAV */
+  /* === NAV === */
   .nav__menu {
     /* border: red solid 1px; */
     flex-direction: row;
@@ -31,7 +31,7 @@ $large: 1200px;
     margin: 0;
   }
 
-  /* HERO */
+  /* === HERO === */
   .hero {
     min-height: 85vh;
   }

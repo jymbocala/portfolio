@@ -6,11 +6,14 @@
   align-items: center;
   min-width: 100vw;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
   background-color: base.$light;
 }
 
 /* === HEADER === */
 header {
+  // border: red 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,16 +22,26 @@ header {
   background-color: base.$dark;
 }
 
+/* === NAV === */
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  min-height: 6rem;
+  min-height: 5.5rem;
+}
+
+.nav__logo-group {
+  display: flex;
+
+  p {
+    color: base.$light;
+    margin-left: 1rem;
+    font-family: 'Source Code Pro', monospace;
+  }
 }
 
 .nav__menu {
-  // border: red solid 1px;
   display: flex;
   align-items: center;
   position: fixed;
@@ -69,7 +82,7 @@ header {
   gap: 0.2rem;
   height: 40px;
   width: 200px;
-  font-family: "Karla", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   cursor: pointer;
@@ -126,28 +139,40 @@ header {
 .hero {
   display: flex;
   justify-content: center;
-  width: 100vw;
   background-color: base.$light;
-}
+  min-height: 80rem}
 
-.hero-inner-container {
-  border: red 1px solid;
+.hero__content {
+  // border: red 1px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* width: 100vw; */
   max-width: 1400px;
-  padding: 4rem 0;
+  padding: 0 2rem;
 }
 
-.hero--img {
-  margin-top: 2rem;
+.heading-primary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
 }
 
-.hero--name {
-  margin-top: 80px;
+.text-primary {
   font-size: 2rem;
+  text-align: center;
+}
+
+.hero__cta {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 1.5rem 8rem;
+  background-color: base.$secondary;
+  color: base.$dark;
 }
 
 /* === ABOUT ME === */
@@ -155,14 +180,14 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  // width: 100vw;
   background-color: #f2f2f2;
 }
 .aboutme-inner-container {
   border: red 1px solid;
-  /* width: 100vw; */
-  max-width: 1400px;
-  padding: 4rem 2rem;
+  width: 100vw;
+  // max-width: 1400px;
+  // padding: 4rem 2rem;
 }
 
 .aboutme--title,
@@ -175,10 +200,9 @@ header {
 }
 
 .tech-container {
-  /* border: red 1px solid; */
   width: 100vw;
   max-width: 1400px;
-  padding: 0 1rem;
+  // padding: 0 1rem;
 }
 
 .tech-icons {
@@ -188,7 +212,6 @@ header {
 }
 
 .tech-icons > div {
-  /* border: red 1px solid; */
   display: grid;
   justify-items: center;
   align-items: center;
