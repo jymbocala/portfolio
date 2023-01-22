@@ -23,21 +23,29 @@ export default function Projects() {
           <ProjectCard
             title={quickLessonPlannerData.title}
             img={quickLessonPlannerData.img}
+            url={quickLessonPlannerData.url}
+            codeUrl={quickLessonPlannerData.codeUrl}
             description={quickLessonPlannerData.description}
           />
           <ProjectCard
             title={picsomeData.title}
             img={picsomeData.img}
+            url={picsomeData.url}
+            codeUrl={picsomeData.codeUrl}
             description={picsomeData.description}
           />
           <ProjectCard
             title={porfolioData.title}
             img={porfolioData.img}
+            url={porfolioData.url}
+            codeUrl={porfolioData.codeUrl}
             description={porfolioData.description}
           />
           <ProjectCard
             title={tenziesData.title}
             img={tenziesData.img}
+            url={tenziesData.url}
+            codeUrl={tenziesData.codeUrl}
             description={tenziesData.description}
           />
         </div>
