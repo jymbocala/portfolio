@@ -17,7 +17,7 @@ const projectData = [
     id: 2,
     title: "Portfolio Site",
     img: "images/card-images/portfolio-preview.png",
-    description: "",
+    description: "This portfolio site uses React for building the user interfaces, and incorporates modern React practices such as hooks and functional components. This portfolio site is designed to be fast, responsive, and easy to navigate.",
   },
   {
     id: 3,
