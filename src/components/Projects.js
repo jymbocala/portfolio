@@ -22,11 +22,6 @@ export default function Projects() {
             img={quickLessonPlanner.img}
             description={quickLessonPlanner.description}
           />
-          <ProjectCard
-            title={quickLessonPlanner.title}
-            img={quickLessonPlanner.img}
-            description={quickLessonPlanner.description}
-          />
         </div>
       </div>
     </section>
