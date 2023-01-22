@@ -8,7 +8,10 @@ export default function ProjectCard(props) {
       <div className="project-card__content">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
-        <button>ROUTER LINK</button>
+        <div className="project-card__btn-cont">
+          <button>LIVE SITE</button>
+          <button>CODE</button>
+        </div>
       </div>
     </div>
   );

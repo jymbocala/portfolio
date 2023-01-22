@@ -3,7 +3,10 @@ import ProjectCard from "./ProjectCard";
 import projectsData from "../projectsData";
 
 export default function Projects() {
-  const quickLessonPlanner = projectsData[0];
+  const quickLessonPlannerData = projectsData[0];
+  const picsomeData = projectsData[1];
+  const porfolioData = projectsData[2];
+  const tenziesData = projectsData[3];
 
   return (
     <section id="projects" className="projects sec-pad">
@@ -18,9 +21,24 @@ export default function Projects() {
 
         <div className="projects__content">
           <ProjectCard
-            title={quickLessonPlanner.title}
-            img={quickLessonPlanner.img}
-            description={quickLessonPlanner.description}
+            title={quickLessonPlannerData.title}
+            img={quickLessonPlannerData.img}
+            description={quickLessonPlannerData.description}
+          />
+          <ProjectCard
+            title={picsomeData.title}
+            img={picsomeData.img}
+            description={picsomeData.description}
+          />
+          <ProjectCard
+            title={porfolioData.title}
+            img={porfolioData.img}
+            description={porfolioData.description}
+          />
+          <ProjectCard
+            title={tenziesData.title}
+            img={tenziesData.img}
+            description={tenziesData.description}
           />
         </div>
       </div>
