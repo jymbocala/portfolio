@@ -37,7 +37,7 @@ export default function AboutMe() {
               </p>
             </div>
 
-            <a href="./#contact" className="content-main__contact-btn">
+            <a href="./#contact" className="btn btn-primary">
               Contact
             </a>
           </div>
