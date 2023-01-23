@@ -7,10 +7,10 @@
 
 ## Table of Contents
 
-* [Description](#description---)
-* [Features](#features---)
-* [Technology](#technology------)
-* [How to Use](#how-to-use---)
+* [Description 📝](#description---)
+* [Features 🚀](#features---)
+* [Technology 👨‍💻](#technology------)
+* [How to Use 💡](#how-to-use---)
 
 ## Description 📝
 
