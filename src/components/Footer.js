@@ -10,41 +10,27 @@ export default function Footer() {
               <span>Social</span>
             </h2>
             <div className="main-footer__social-cont">
-              {/* <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jym-bocala-6339b4237/">
                 <img
                   className="main-footer__icon"
-                  src="./assets/img/linkedin-ico.png"
+                  src="images/footer-icons/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/jymintech">
                 <img
                   className="main-footer__icon"
-                  src="./assets/img/github-ico.png"
+                  src="images/footer-icons/twitter-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/jymbocala">
                 <img
                   className="main-footer__icon"
-                  src="./assets/img/twitter-ico.png"
+                  src="images/footer-icons/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  className="main-footer__icon"
-                  src="./assets/img/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  className="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/img/insta-ico.png"
-                  alt="icon"
-                />
-              </a> */}
             </div>
           </div>
           <div className="main-footer__row main-footer__row-2">

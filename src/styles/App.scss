@@ -188,10 +188,10 @@
 
 /* === FOOTER === */
 footer {
-  border: red 1px solid;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: auto;
   width: 100%;
+  background-color: base.$dark;
 }
