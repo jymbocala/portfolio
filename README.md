@@ -1,6 +1,6 @@
 # Jym Bocala Portfolio 🚀
 <div align="center">
-  <img src="images/card-images/portfolio-preview.png">
+  <img src="public/images/card-images/portfolio-preview.png">
 </div>
 
 ## [Live Site 🔗](https://jymbocala.com/)
