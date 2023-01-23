@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
       />
       <div className="project-card__content">
         <h3>{props.title}</h3>
-        <p>{props.description}</p>
+        <p className="text-grey">{props.description}</p>
         <div className="project-card__btn-cont">
           <a href={props.url} target="_blank" rel="noreferrer">
             LIVE

@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="projects-container">
         <div className="heading-sec">
           <h2 className="heading-sec__main heading">Projects</h2>
-          <p className="heading-sec__sub">
+          <p className="heading-sec__sub text-grey">
             All my projects include links to the code and live version. Click
             the button to learn more about each one.
           </p>

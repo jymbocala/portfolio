@@ -5,8 +5,8 @@ export default function Contact() {
     <section id="contact" className="contact sec-pad">
       <div className="contacts-container">
         <div className="heading-sec">
-          <h2 className="heading-sec__main heading">Contact</h2>
-          <p className="heading-sec__sub">
+          <h2 className="heading-sec__main heading heading-lt">Contact</h2>
+          <p className="heading-sec__sub heading-lt">
             Please reach out if you have any questions! Send me an email at
             jym.bocala@gmail.com or call me directly on (+61) 422 672 865.
           </p>

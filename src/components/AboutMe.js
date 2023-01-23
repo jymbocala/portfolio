@@ -6,7 +6,7 @@ export default function AboutMe() {
       <div className="about-main-cont">
         <div className="heading-sec">
           <h2 className="heading heading-sec__main">About Me</h2>
-          <p className="heading-sec__sub">
+          <p className="heading-sec__sub text-grey">
             I'm a frontend developer based out of Melbourne, Australia. I love
             building webpages that solve real-world problems, and that are
             delightful to use. My specialities include React JS and Redux.
@@ -17,7 +17,7 @@ export default function AboutMe() {
           <div className="about__content-main">
             <h3 className="about__content-title">Get to know me!</h3>
 
-            <div className="about__content-para">
+            <div className="about__content-para text-grey">
               <p>
                 I have a Bachelor of Arts/Bachelor of Education in Business
                 Studies and Commerce and a background in high school teaching. I
