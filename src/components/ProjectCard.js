@@ -14,11 +14,11 @@ export default function ProjectCard(props) {
         <h3>{props.title}</h3>
         <p>{props.description}</p>
         <div className="project-card__btn-cont">
-          <a href={props.url} target="_blank">
+          <a href={props.url} target="_blank" rel="noreferrer">
             LIVE
           </a>
-          {props.codeUrl != "" && (
-            <a href={props.codeUrl} target="_blank">
+          {props.codeUrl !== "" && (
+            <a href={props.codeUrl} target="_blank" rel="noreferrer">
               CODE
             </a>
           )}
