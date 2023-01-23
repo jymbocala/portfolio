@@ -71,8 +71,18 @@ $large: 1200px;
       margin-top: 0;
     }
   }
-}
 
+  /* === ABOUT ME === */
+  .about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .skills > div {
+    width: 60%;
+  }
+}
 
 /* === LARGE SCREENS === */
 @media screen and (min-width: $large) {
