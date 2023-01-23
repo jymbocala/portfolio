@@ -7,10 +7,10 @@
 
 ## Table of Contents
 
-* [Description](#description)
-* [Features](#features)
-* [Technology](#technology)
-* [How To Use](#how-to-use)
+* [Description](#description---)
+* [Features](#features---)
+* [Technology](#technology------)
+* [How to Use](#how-to-use---)
 
 ## Description 📝
 
@@ -30,4 +30,4 @@ Navigating my portfolio is easy. Simply use the navigation menu to explore my wo
 
 
 ## Author 
-[Jym Bocala](https://twitter.com/home)
+[Jym Bocala](https://twitter.com/jymintech)
