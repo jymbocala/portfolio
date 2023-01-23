@@ -13,17 +13,8 @@
   padding: 8rem 0;
 }
 
-/* === PROJECTS === */
-.projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  background-color: base.$light;
-}
-
-.projects-container {
-  max-width: 1400px;
+.heading {
+  text-transform: uppercase;
 }
 
 .heading-sec {
@@ -38,9 +29,25 @@
 
   .heading-sec__sub {
     font-size: 1.2rem;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
+    line-height: 1.7;
+    color: grey;
   }
 }
+
+/* === PROJECTS === */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-color: #fafafa;
+}
+
+.projects-container {
+  max-width: 1400px;
+}
+
 
 /* PROJECT CARD */
 .project-card {
@@ -68,14 +75,17 @@
 
   p {
     margin-bottom: 2rem;
+    line-height: 1.7;
+    color: grey;
   }
 }
 
-.project-card__btn-cont {
+.project-card__btn-cont,
+.about__content-main {
   a {
     padding: 1rem 3rem;
     margin-right: 2rem;
-    width: 50%;
+    width: 10rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -98,36 +108,71 @@
 
 /* === ABOUT ME === */
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f2f2f2;
-}
-.about-inner-cont {
-  border: red 1px solid;
-  width: 100vw;
-}
-
-
-/* ABOUT CONTENT */
-.about__content-details-para {
-  padding: 0 1.2rem;
-}
-
-.skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
+  grid-template-columns: 1fr;
+  // grid-gap: 15rem;
+  background-color: base.$light;
 }
 
-.skills > div {
-  display: grid;
-  justify-items: center;
-  align-items: center;
+.about__content {
+  .about__content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .about__content-title{
+    font-size: 1.7rem
+  }
+  
+  .about__content-para {
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    color: grey;
+    font-size: 1.2rem;
+  }
 }
+
+.content-main__contact-btn {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about__content-skills {
+  padding: 2rem;
+
+  .skills {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+      p {
+        color: grey;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+/* === CONTACT === */
+
+
 
 /* === FOOTER === */
-.footer {
+footer {
   border: red 1px solid;
   display: flex;
   justify-content: center;

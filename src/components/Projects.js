@@ -12,7 +12,7 @@ export default function Projects() {
     <section id="projects" className="projects sec-pad">
       <div className="projects-container">
         <div className="heading-sec">
-          <h2 className="heading-sec__main">Projects</h2>
+          <h2 className="heading-sec__main heading">Projects</h2>
           <p className="heading-sec__sub">
             All my projects include links to the code and live version. Click
             the button to learn more about each one.

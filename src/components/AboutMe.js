@@ -5,49 +5,39 @@ export default function AboutMe() {
     <section className="about sec-pad" id="about">
       <div className="about-main-cont">
         <div className="heading-sec">
-          <h2 className="about--title heading heading-sec__main">About Me</h2>
+          <h2 className="heading heading-sec__main">About Me</h2>
           <p className="heading-sec__sub">
-            I'm a frontend developer based out of London, UK. I love building
-            apps that solve real-world problems, and that are delightful to use.
-            My specialities include TypeScript, React JS, Tailwind CSS, and
-            Styled Components.
+            I'm a frontend developer based out of Melbourne, Australia. I love
+            building webpages that solve real-world problems, and that are
+            delightful to use. My specialities include React JS and Redux.
           </p>
         </div>
 
         <div className="about__content">
           <div className="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <div className="about__content-details-para">
-                <p>
-                  I have a background in highschool teaching, in which I have a
-                  Bachelor of Arts/Bachelor of Education. I specialised in
-                  Business Studies and Commerce. Teaching in any form, and
-                  sharing my knowledge to people has been a passion of mine
-                  since I was young.
-                </p>
-                <p>
-                  I'm currently on the journey to a career in tech💻! Before
-                  learning to code, I've always thought it was something too
-                  difficult for me to pursue. But, with encouragement from my
-                  brother, a React Developer , I finally gave it a go. Turns
-                  out, it was the best decision I made! My hunger to learn
-                  coding grew fast and I started learning actively. Today, I am
-                  aspiring to be a Frontend Developer.
-                </p>
-                <p>
-                  Being a teacher, I have come to understand the importance and
-                  value in lifelong learning. I bring that attitude to coding,
-                  where each new concept, technology or framework that I learn
-                  brings a sense of excitement and challenge. Also, teaching
-                  people to code, even if they're only a couple of steps behind
-                  me, is something I'm passionate about. So, aspiring devs and
-                  those on the fence about starting to learn coding, feel free
-                  to message me any questions, and I'll do my best for you!
-                </p>
-              </div>
+            <h3 className="about__content-title">Get to know me!</h3>
+
+            <div className="about__content-para">
+              <p>
+                I have a Bachelor of Arts/Bachelor of Education in Business
+                Studies and Commerce and a background in high school teaching. I
+                am now pursuing a career in front-end development and enjoy
+                learning new concepts, libraries and frameworks. I have
+                transferable skills in problem-solving, communication,
+                leadership and time management. I am also looking for new
+                opportunities to collaborate and make an impact.
+              </p>
+              <p>
+                Outside of work, I enjoy spending time with friends and family,
+                and playing tennis and badminton. I am continuously exploring
+                new technologies and methodologies to enhance my skillset and be
+                a valuable asset to any organization. Additionally, I am a
+                lifelong learner and always strive to improve and adapt to new
+                challenges.
+              </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">
+
+            <a href="./#contact" className="content-main__contact-btn">
               Contact
             </a>
           </div>
