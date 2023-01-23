@@ -81,6 +81,14 @@ $large: 1200px;
   .skills > div {
     width: 60%;
   }
+
+  /* === FOOTER=== */
+  .footer__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    max-width: 1400px;
+  }
 }
 
 /* === LARGE SCREENS === */

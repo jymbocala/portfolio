@@ -192,6 +192,20 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: auto;
-  width: 100%;
+  width: 100vw;
   background-color: base.$dark;
+}
+
+.footer__content {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.footer__social-cont {
+  margin-bottom: 3rem;
+
+  .footer__icon {
+    width: 25px;
+    margin-right: 1rem;
+  }
 }
