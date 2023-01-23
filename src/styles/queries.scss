@@ -76,7 +76,6 @@ $large: 1200px;
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
   }
 
   .skills > div {
@@ -88,5 +87,9 @@ $large: 1200px;
 @media screen and (min-width: $large) {
   .nav-menu {
     gap: 40px;
+  }
+
+  .about__content {
+    grid-gap: 2rem;
   }
 }

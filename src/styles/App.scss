@@ -114,9 +114,14 @@
 
 /* === ABOUT ME === */
 .about {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: base.$light;
+}
+
+.about-cont {
+  max-width: 1400px;
 }
 
 .about__content {
@@ -174,6 +179,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  strong {
+    color: base.$secondary;
+  }
 }
 
 
