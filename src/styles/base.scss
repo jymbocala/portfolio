@@ -6,7 +6,11 @@ $dark: #041C32;
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
+
+
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -15,4 +19,5 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
   position: relative;
+
 }

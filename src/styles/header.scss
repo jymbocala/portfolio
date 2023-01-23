@@ -23,10 +23,11 @@ header {
   .nav__logo-group {
     display: flex;
   
-    p {
+    a {
       color: base.$light;
       margin-left: 1rem;
       font-family: 'Source Code Pro', monospace;
+      text-decoration: none;
     }
   }
 }

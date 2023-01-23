@@ -14,8 +14,18 @@ export default function Projects() {
         <div className="heading-sec">
           <h2 className="heading-sec__main heading">Projects</h2>
           <p className="heading-sec__sub text-grey">
-            All my projects include links to the code and live version. Click
-            the button to learn more about each one.
+            All my projects include links to the live version of the site. See
+            it in action!
+          </p>
+          <p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/jymbocala"
+              className="heading-sec__sub text-grey github-cta"
+            >
+              View all my projects on my GitHub
+            </a>
           </p>
         </div>
 

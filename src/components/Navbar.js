@@ -13,7 +13,10 @@ export default function Navbar() {
       <div className="nav">
         <div className="nav__logo-group">
           <img src="images/hero-profile3.png" width={60} alt="jym bocala profile" />
-          <p>{"<jymintech>"}</p>
+          <a
+              href="#home">
+            <p>{"<jymintech>"}</p>
+          </a>
         </div>
 
         <ul className="nav__menu">
@@ -27,23 +30,23 @@ export default function Navbar() {
             </a>
           </li>
           <li className="menu__item">
+            <a href="#about" className="menu__item-link" onClick={toggleHamburger}>
+              About Me
+            </a>
+          </li>
+          <li className="menu__item">
             <a href="#projects" className="menu__item-link" onClick={toggleHamburger}>
               Projects
             </a>
           </li>
           <li className="menu__item">
-            <a href="#about-me" className="menu__item-link" onClick={toggleHamburger}>
-              About Me
-            </a>
-          </li>
-          <li className="menu__item">
-            <a href="#contact-me" className="menu__item-link" onClick={toggleHamburger}>
+            <a href="#contact" className="menu__item-link" onClick={toggleHamburger}>
               Contact Me
             </a>
           </li>
           <li className="menu__item">
             <a
-              href="./Jym_Bocala_CV.pdf"
+              href="./Jym-Bocala-CV.pdf"
               className="menu__item-link"
               download="Jym_Bocala_CV.pdf"
               target="_blank"
