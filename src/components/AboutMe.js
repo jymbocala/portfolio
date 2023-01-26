@@ -9,7 +9,7 @@ export default function AboutMe() {
           <p className="heading-sec__sub text-grey">
             I'm a frontend developer based out of Melbourne, Australia. I love
             building webpages that solve real-world problems, and that are
-            delightful to use. My specialities include React JS and Redux.
+            delightful to use. I also have a keen interest in AI. 
           </p>
         </div>
 
