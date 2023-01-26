@@ -174,11 +174,13 @@
 }
 
 .about__content-skills {
+  padding: 2rem;
+
   .skills {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 8px;
   
     div {
       display: flex;
