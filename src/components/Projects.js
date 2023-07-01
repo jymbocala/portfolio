@@ -7,6 +7,8 @@ export default function Projects() {
   const picsomeData = projectsData[1];
   const porfolioData = projectsData[2];
   const tenziesData = projectsData[3];
+  const notedData = projectsData[4];
+  const urbanStyleXData = projectsData[5];
 
   return (
     <section id="projects" className="projects sec-pad">
@@ -30,6 +32,20 @@ export default function Projects() {
         </div>
 
         <div className="projects__content">
+          <ProjectCard
+            title={urbanStyleXData.title}
+            img={urbanStyleXData.img}
+            url={urbanStyleXData.url}
+            codeUrl={urbanStyleXData.codeUrl}
+            description={urbanStyleXData.description}
+          />
+          <ProjectCard
+            title={notedData.title}
+            img={notedData.img}
+            url={notedData.url}
+            codeUrl={quickLessonPlannerData.codeUrl}
+            description={notedData.description}
+          />
           <ProjectCard
             title={quickLessonPlannerData.title}
             img={quickLessonPlannerData.img}

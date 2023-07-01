@@ -34,6 +34,24 @@ const projectData = [
     description:
       "Tenzies is a popular dice game that encourages fast reactions and is super easy to learn. Roll until all dice are the same. Click each die to freeze it at its current value between rolls.",
   },
+  {
+    id: 4,
+    title: "Noted",
+    img: "images/card-images/noted-preview.png",
+    url: "https://cheery-semolina-b5ae68.netlify.app/",
+    codeUrl: "",
+    description:
+      "Noted is a user-friendly note-taking app developed using React, Bootstrap, and TypeScript. With features like seamless categorization, versatile Markdown support, and efficient note retrieval, Noted streamlines note capturing and organization.",
+  },
+  {
+    id: 5,
+    title: "Urban StyleX",
+    img: "images/card-images/urban-stylex-preview.png",
+    url: "https://urbanstylex.netlify.app/",
+    codeUrl: "",
+    description:
+      "Urban StyleX is an React-powered e-commerce app that simplifies online shopping. Users can add products to their cart, fill out their information, and make secure payments through Stripe, with a CMS backend supported by Strapi.",
+  },
 ];
 
 export default projectData;
