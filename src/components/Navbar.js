@@ -46,9 +46,9 @@ export default function Navbar() {
           </li>
           <li className="menu__item">
             <a
-              href="./Jym-Bocala-CV.pdf"
+              href="./Jym_Bocala-CV.pdf"
               className="menu__item-link"
-              download="Jym_Bocala_CV.pdf"
+              download="Jym_Bocala-CV.pdf"
               target="_blank"
             >
               <button className="download-btn">
