@@ -7,7 +7,7 @@ export default function AboutMe() {
         <div className="heading-sec">
           <h2 className="heading heading-sec__main">About Me</h2>
           <p className="heading-sec__sub text-grey">
-            I'm a frontend developer based out of Melbourne, Australia. I love
+            I'm a software developer based in Melbourne, Australia. I love
             building webpages that solve real-world problems, and that are
             delightful to use. I also have a keen interest in AI. 
           </p>

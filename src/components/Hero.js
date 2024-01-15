@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="heading-primary">Hey, My name is Jym Bocala</h1>
         <div className="hero__info">
           <p className="text-primary">
-            I am a passionate frontend developer based in Melbourne, Australia.
+            I am a passionate teacher turned software developer based in Melbourne, Australia.
             My speciality is in <strong>React JS</strong>, and I am passionate
             in upskilling both technical and non-technical skills.
           </p>
