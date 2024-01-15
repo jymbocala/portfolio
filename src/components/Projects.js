@@ -4,7 +4,7 @@ import projectsData from "../projectsData";
 
 export default function Projects() {
   const quickLessonPlannerData = projectsData[0];
-  const picsomeData = projectsData[1];
+  // const picsomeData = projectsData[1];
   const porfolioData = projectsData[2];
   const tenziesData = projectsData[3];
   const notedData = projectsData[4];

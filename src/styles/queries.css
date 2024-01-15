@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+/* === MEDIUM SCREENS === */
+@media screen and (min-width: 768px) {
+  /* === NAV === */
+  .nav__menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    gap: 15px;
+    width: auto;
+  }
+  .nav {
+    width: 1400px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .download-btn {
+    gap: 0.5rem;
+    height: 50px;
+    width: 100px;
+    margin: 0;
+  }
+  /* === HERO === */
+  .hero {
+    min-height: 65vh;
+  }
+  .hero__content .heading-primary {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  .hero__content .text-primary {
+    margin: 0 auto 8rem;
+    width: 70%;
+    margin-bottom: 4rem;
+  }
+  .hero__content .hero__cta {
+    padding: 1rem 0;
+    width: 30%;
+  }
+  /* === PROJECTS === */
+  .project-card {
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
+    margin-bottom: 11rem;
+    align-items: center;
+  }
+  .project-card__content {
+    height: 80%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .project-card__content h3 {
+    margin-top: 0;
+  }
+  /* === ABOUT ME === */
+  .about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills > div {
+    width: 60%;
+  }
+  /* === FOOTER=== */
+  .footer__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    max-width: 1400px;
+  }
+}
+/* === LARGE SCREENS === */
+@media screen and (min-width: 1200px) {
+  .nav-menu {
+    gap: 40px;
+  }
+  .about__content {
+    grid-gap: 2rem;
+  }
+}/*# sourceMappingURL=queries.css.map */
