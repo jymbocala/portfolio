@@ -38,7 +38,7 @@ const projectData = [
     id: 4,
     title: "Noted",
     img: "images/card-images/noted-preview.png",
-    url: "https://cheery-semolina-b5ae68.netlify.app/",
+    url: "https://notedbyjym.netlify.app/",
     codeUrl: "",
     description:
       "Noted is a user-friendly note-taking app developed using React, Bootstrap, and TypeScript. With features like seamless categorization, versatile Markdown support, and efficient note retrieval, Noted streamlines note capturing and organization.",
@@ -51,6 +51,15 @@ const projectData = [
     codeUrl: "",
     description:
       "Urban StyleX is an React-powered e-commerce app that simplifies online shopping. Users can add products to their cart, fill out their information, and make secure payments through Stripe, with a CMS backend supported by Strapi.",
+  },
+  {
+    id: 6,
+    title: "Eat The Frog API",
+    img: "images/card-images/eat-the-frog-preview.png",
+    url: "",
+    codeUrl: "https://github.com/jymbocala/eat-the-frog",
+    description:
+      "'Eat The Frog' is a key component of my final project for my Diploma of IT course. Leveraging Flask (a Python framework), I designed and implemented a robust database using PostgreSQL. The project features extensive API routing. Inspired by Brian Tracy's 'Eat That Frog!' philosophy, the features of the app distinguishes itself from conventional to-do list apps and guides users to conquer their daily“frogs” with a purposeful and effective approach.",
   },
 ];
 

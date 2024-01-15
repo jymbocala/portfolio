@@ -9,6 +9,7 @@ export default function Projects() {
   const tenziesData = projectsData[3];
   const notedData = projectsData[4];
   const urbanStyleXData = projectsData[5];
+  const eatTheFrogData = projectsData[6];
 
   return (
     <section id="projects" className="projects sec-pad">
@@ -33,11 +34,11 @@ export default function Projects() {
 
         <div className="projects__content">
           <ProjectCard
-            title={urbanStyleXData.title}
-            img={urbanStyleXData.img}
-            url={urbanStyleXData.url}
-            codeUrl={urbanStyleXData.codeUrl}
-            description={urbanStyleXData.description}
+            title={eatTheFrogData.title}
+            img={eatTheFrogData.img}
+            url={eatTheFrogData.url}
+            codeUrl={eatTheFrogData.codeUrl}
+            description={eatTheFrogData.description}
           />
           <ProjectCard
             title={notedData.title}
@@ -47,19 +48,26 @@ export default function Projects() {
             description={notedData.description}
           />
           <ProjectCard
+            title={urbanStyleXData.title}
+            img={urbanStyleXData.img}
+            url={urbanStyleXData.url}
+            codeUrl={urbanStyleXData.codeUrl}
+            description={urbanStyleXData.description}
+          />
+          {/* <ProjectCard
             title={quickLessonPlannerData.title}
             img={quickLessonPlannerData.img}
             url={quickLessonPlannerData.url}
             codeUrl={quickLessonPlannerData.codeUrl}
             description={quickLessonPlannerData.description}
-          />
-          <ProjectCard
+          /> */}
+          {/* <ProjectCard
             title={picsomeData.title}
             img={picsomeData.img}
             url={picsomeData.url}
             codeUrl={picsomeData.codeUrl}
             description={picsomeData.description}
-          />
+          /> */}
           <ProjectCard
             title={porfolioData.title}
             img={porfolioData.img}
@@ -74,6 +82,7 @@ export default function Projects() {
             codeUrl={tenziesData.codeUrl}
             description={tenziesData.description}
           />
+          
         </div>
       </div>
     </section>
