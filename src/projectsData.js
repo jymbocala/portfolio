@@ -23,7 +23,8 @@ const projectData = [
     img: "images/card-images/portfolio-preview.png",
     url: "https://jymbocala.com/",
     codeUrl: "https://github.com/jymbocala/portfolio",
-    description: "This portfolio site uses React for building the user interfaces, and incorporates modern React practices such as hooks and functional components. This portfolio site is designed to be fast, responsive, and easy to navigate.",
+    description:
+      "This portfolio site uses React for building the user interfaces, and incorporates modern React practices such as hooks and functional components. This portfolio site is designed to be fast, responsive, and easy to navigate.",
   },
   {
     id: 3,
@@ -60,6 +61,15 @@ const projectData = [
     codeUrl: "https://github.com/jymbocala/eat-the-frog",
     description:
       "'Eat The Frog' is a key component of my final project for my Diploma of IT course. Leveraging Flask (a Python framework), I designed and implemented a robust database using PostgreSQL. The project features extensive API routing. Inspired by Brian Tracy's 'Eat That Frog!' philosophy, the features of the app distinguishes itself from conventional to-do list apps and guides users to conquer their daily“frogs” with a purposeful and effective approach.",
+  },
+  {
+    id: 7,
+    title: "DeliverEase",
+    img: "images/card-images/deliverease-preview.png",
+    url: "https://deliverease.live/",
+    codeUrl: "https://github.com/jymbocala/deliverease-frontend",
+    description:
+      "'DeliverEase' is a complete full-stack web application that harnesses a modern tech stack to streamline delivery operations. From managing locations seamlessly to providing comprehensive details like addresses, docking hours, and parking instructions, 'DeliverEase' ensures efficiency in delivery logistics. Its robust features include Location Management, Comprehensive Location Details, and Photo Upload Capability, empowering delivery businesses and couriers to navigate delivery routes with ease.",
   },
 ];
 

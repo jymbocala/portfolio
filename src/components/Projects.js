@@ -10,6 +10,7 @@ export default function Projects() {
   const notedData = projectsData[4];
   const urbanStyleXData = projectsData[5];
   const eatTheFrogData = projectsData[6];
+  const delivereaseData = projectsData[7];
 
   return (
     <section id="projects" className="projects sec-pad">
@@ -33,6 +34,13 @@ export default function Projects() {
         </div>
 
         <div className="projects__content">
+          <ProjectCard
+            title={delivereaseData.title}
+            img={delivereaseData.img}
+            url={delivereaseData.url}
+            codeUrl={delivereaseData.codeUrl}
+            description={delivereaseData.description}
+          />
           <ProjectCard
             title={eatTheFrogData.title}
             img={eatTheFrogData.img}
